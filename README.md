@@ -64,6 +64,9 @@ This update adds data augmentation to improve model generalization. Techniques i
 - Random resized crop
 
 Implemented using `torchvision.transforms`.
+This is train loss and train accuracy before merging augmentation : Train loss: 0.22522228788734683 Train acc: 0.8976430976430977
+
+Changes observed after merging: Train loss:0.25305921311401985 Train acc: 0.8929292929292929
 Authors
 
 Aliza Sheikh
