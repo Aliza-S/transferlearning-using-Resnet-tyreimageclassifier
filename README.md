@@ -54,6 +54,16 @@ Results
 The trained model distinguishes between good and defective tyres, supporting quality control automation. 
 feature to be added
 - Data augmentation (RandomCrop, HorizontalFlip)
+
+ ##  New Feature: Data Augmentation
+
+This update adds data augmentation to improve model generalization. Techniques include:
+- Random horizontal flip
+- Rotation
+- Color jitter
+- Random resized crop
+
+Implemented using `torchvision.transforms`.
 Authors
 
 Aliza Sheikh
