@@ -39,13 +39,12 @@ A custom   Convolutional Neural Network (CNN)   built with `torch.nn`:
 -   Optimizer:   Adam optimizer for faster convergence
 -   Device:   GPU (CUDA) is used if available, else CPU
 -   Epochs:   Configurable, typically 10–20
--   Model Saving:   Final model weights are stored as `model.pkl`
+  
 
  Evaluation
 -   Validation Set:   A portion of the dataset is used for validation
 -   Metrics:  
   - Accuracy
-  - (Optional) Precision, Recall, F1-score for class-level analysis
 -   Visualizations:  
   - Accuracy/Loss curves
   - Confusion Matrix to evaluate per-class performance
@@ -56,7 +55,7 @@ The model demonstrates strong learning behavior with consistent improvements in 
 feature to be added
 - Data augmentation (RandomCrop, HorizontalFlip)
 
-Authors:
+
  ##  New Feature: Data Augmentation
 
 This update adds data augmentation to improve model generalization. Techniques include:
@@ -69,7 +68,7 @@ Implemented using `torchvision.transforms`.
 This is train loss and train accuracy before merging augmentation : Train loss: 0.22522228788734683 Train acc: 0.8976430976430977
 
 Changes observed after merging: Train loss:0.25305921311401985 Train acc: 0.8929292929292929
-Authors
+Authors:
 
 Aliza Sheikh
 
