@@ -74,7 +74,7 @@ Train loss:0.25305921311401985
 Train acc: 0.8929292929292929
 
 Authors
-Aliza Sheikh
+Aliza Sheikh,
 Sarah Fatima Islam
 
 
