@@ -57,6 +57,16 @@ feature to be added
 - Data augmentation (RandomCrop, HorizontalFlip)
 
 Authors:
+ ##  New Feature: Data Augmentation
+
+This update adds data augmentation to improve model generalization. Techniques include:
+- Random horizontal flip
+- Rotation
+- Color jitter
+- Random resized crop
+
+Implemented using `torchvision.transforms`.
+Authors
 
 Aliza Sheikh
 
