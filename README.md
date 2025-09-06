@@ -13,7 +13,7 @@ Dataset The dataset consists of digital images of tyres, organized into two clas
 
 /defective/: Images of tyres with various defects.
 
-A standard split was used to create training and validation sets to properly train and evaluate the models.
+A standard split was used to create training and validation sets, allowing the models to be properly trained and evaluated.
 
 Models & Methodology
 Data Loading & Preprocessing
@@ -55,7 +55,9 @@ The trained model distinguishes between good and defective tyres, supporting qua
 feature to be added
 - Data augmentation (RandomCrop, HorizontalFlip)
 Authors
+
 Aliza Sheikh
+
 Sarah Fatima Islam
 
 
