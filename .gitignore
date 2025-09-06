@@ -2,6 +2,7 @@
 # Ignore data files
 *.csv
 *.txt
+!requirements.txt
 
 # Ignore model files
 *.pkl
