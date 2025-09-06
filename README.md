@@ -52,9 +52,11 @@ A custom   Convolutional Neural Network (CNN)   built with `torch.nn`:
 
 Results
 The trained model distinguishes between good and defective tyres, supporting quality control automation. 
+The model demonstrates strong learning behavior with consistent improvements in both training and validation accuracy. By Epoch 6, it achieves 98.65% training accuracy and 95.15% validation accuracy, indicating effective generalization. While validation loss shows minor fluctuations, the overall trend supports robust performance. 
 feature to be added
 - Data augmentation (RandomCrop, HorizontalFlip)
-Authors
+
+Authors:
 
 Aliza Sheikh
 
